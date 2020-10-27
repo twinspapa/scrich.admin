@@ -1,0 +1,199 @@
+<!-- <member:code_B> -->
+<div class="container-fluid">
+    <h1 class="mt-4">회원</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+        <li class="breadcrumb-item active">회원</li>
+    </ol>
+    <div class="card mb-4">
+        <div class="card-body">
+            DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the
+            <a target="_blank" href="https://datatables.net/">official DataTables documentation</a>
+            .
+        </div>
+    </div>
+    <div class="card mb-4">
+        <div class="card-header">
+            <div class="dropdown">
+                <i class="fas fa-table mr-1"></i>
+                회원리스트
+            </div>
+            <div class="row pt-2">
+                <div class="col-xl-2 pt-1 pb-1">
+                    <select class="custom-select mr-3 m-xl-0" name="">
+                        <option value="">전체</option>
+                        <option value="">정상</option>
+                        <option value="">정지</option>
+                        <option value="">탈퇴</option>
+                        <option value="">휴면</option>
+                    </select>
+                </div>
+                <div class="col-xl-6 date_wrap">
+                    <div class="row m-0">
+                        <span class="col-xl-1 px-0">기간:&nbsp</span>
+                        <div class="col-xl-5 px-0 py-1 ml-auto">
+                            <input class="form-control" type="date" name="" value="">
+                        </div>
+                        <span class="col-xl-1 px-0">&nbsp~&nbsp</span>
+                        <div class="col-xl-5 px-0 py-1 ml-auto">
+                            <input class="form-control" type="date" name="" value="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 ml-auto">
+                    <div class="row m-0">
+                        <div class="col-xl-5 px-0 py-1 ml-auto">
+                            <a class="btn btn-secondary btn-block" href="#">내려받기</a>
+                        </div>
+                        <div class="col-xl-5 px-0 py-1 ml-auto">
+                            <a class="btn btn-primary btn-block" href="#">조회</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>NO</th>
+                            <th>회원상태</th>
+                            <th>아이디</th>
+                            <th>닉네임</th>
+                            <th>성별</th>
+                            <th>지역</th>
+                            <th>연락처</th>
+                            <th>가입일</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>NO</th>
+                            <th>회원상태</th>
+                            <th>아이디</th>
+                            <th>닉네임</th>
+                            <th>성별</th>
+                            <th>지역</th>
+                            <th>연락처</th>
+                            <th>가입일</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <th>99</th>
+                            <th><span class="text-success">정상</span></th>
+                            <th><a href="#">scrich@scrich.com</a></th>
+                            <th>scrich</th>
+                            <th>남</th>
+                            <th>서울</th>
+                            <th>01037626202</th>
+                            <th>2020.12.10 23:59:59</th>
+                        </tr>
+                        <tr>
+                            <th>99</th>
+                            <th><span class="text-danger">정지</span></th>
+                            <th><a href="#">rhrlgus</a></th>
+                            <th>twinspapa</th>
+                            <th>남</th>
+                            <th>서울</th>
+                            <th>01037626202</th>
+                            <th>2020.12.10 23:59:59</th>
+                        </tr>
+                        <tr>
+                            <th>99</th>
+                            <th><span class="text-secondary">탈퇴</span></th>
+                            <th><a href="#">scrich@scrich.com</a></th>
+                            <th>scrich</th>
+                            <th>남</th>
+                            <th>서울</th>
+                            <th>01037626202</th>
+                            <th>2020.12.10 23:59:59</th>
+                        </tr>
+                        <tr>
+                            <th>99</th>
+                            <th>정상</th>
+                            <th><a href="#">scrich@scrich.com</a></th>
+                            <th>scrich</th>
+                            <th>남</th>
+                            <th>서울</th>
+                            <th>01037626202</th>
+                            <th>2020.12.10 23:59:59</th>
+                        </tr>
+                        <tr>
+                            <th>99</th>
+                            <th>정상</th>
+                            <th><a href="#">scrich@scrich.com</a></th>
+                            <th>scrich</th>
+                            <th>남</th>
+                            <th>서울</th>
+                            <th>01037626202</th>
+                            <th>2020.12.10 23:59:59</th>
+                        </tr>
+                        <tr>
+                            <th>99</th>
+                            <th>정상</th>
+                            <th><a href="#">scrich@scrich.com</a></th>
+                            <th>scrich</th>
+                            <th>남</th>
+                            <th>서울</th>
+                            <th>01037626202</th>
+                            <th>2020.12.10 23:59:59</th>
+                        </tr>
+                        <tr>
+                            <th>99</th>
+                            <th>정상</th>
+                            <th><a href="#">scrich@scrich.com</a></th>
+                            <th>scrich</th>
+                            <th>남</th>
+                            <th>서울</th>
+                            <th>01037772454</th>
+                            <th>2020.12.10 23:59:59</th>
+                        </tr>
+                        <tr>
+                            <th>99</th>
+                            <th>정상</th>
+                            <th><a href="#">scrich@scrich.com</a></th>
+                            <th>scrich</th>
+                            <th>남</th>
+                            <th>서울</th>
+                            <th>01037626202</th>
+                            <th>2020.12.10 23:59:59</th>
+                        </tr>
+                        <tr>
+                            <th>99</th>
+                            <th>정상</th>
+                            <th><a href="#">scrich@scrich.com</a></th>
+                            <th>scrich</th>
+                            <th>남</th>
+                            <th>서울</th>
+                            <th>01037626202</th>
+                            <th>2020.12.10 23:59:59</th>
+                        </tr>
+                        <tr>
+                            <th>99</th>
+                            <th>정상</th>
+                            <th><a href="#">scrich@scrich.com</a></th>
+                            <th>scrich</th>
+                            <th>남</th>
+                            <th>서울</th>
+                            <th>01037626202</th>
+                            <th>2020.12.10 23:59:59</th>
+                        </tr>
+                        <tr>
+                            <th>99</th>
+                            <th>정상</th>
+                            <th><a href="#">scrich@scrich.com</a></th>
+                            <th>scrich</th>
+                            <th>여</th>
+                            <th>부산</th>
+                            <th>01037626202</th>
+                            <th>2020.12.10 23:59:59</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- </member:code_B> -->
